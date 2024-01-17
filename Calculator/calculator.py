@@ -7,7 +7,7 @@ print("Now we have submodules")
 
 print("-----------------------------------")
 print("Our first operation will be a sum")
-print("How much is 1 + 2 = " + sum(1,2))
+print("How much is 1 + 2 = " + str(sum(1,2)))
 
 print("-----------------------------------")
 print("Now let's do a times operation")
