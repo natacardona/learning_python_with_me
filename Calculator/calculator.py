@@ -15,4 +15,8 @@ print("How much is 3 * 1 = " + str(times.times(1,3)))
 
 print("-----------------------------------")
 print("Now let's do a div")
-print("How much is 3 * 1 = " + div(1,0))
+
+try:
+    print("How much is 3 * 1 = " + div(1,0))
+except Exception:
+    print("You can't divide any num by zero")
